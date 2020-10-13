@@ -35,7 +35,11 @@ end
   # However, this time, sort each internal array alphabetically by the first character
   
 def sorted_matrix
- produce_storage_room.sort
+   produce_storage_room = [
+    CONVENTIONAL_PRODUCE,
+    ORGANIC_PRODUCE
+    ]
+  produce_storage_room.sort
 end
 
 def matrix_lookup(matrix, row, column)
